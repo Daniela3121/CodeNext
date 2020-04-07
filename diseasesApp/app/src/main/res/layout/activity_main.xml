@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/respiratory"
+        android:layout_width="222dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="184dp"
+        android:text="Respiratory Diseases"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cardio"
+        android:layout_width="222dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:text="cardiovascular diseases"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respiratory" />
+
+    <TextView
+        android:id="@+id/bacterial"
+        android:layout_width="222dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="36dp"
+        android:text="bacterial/virus caused diseases"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardio" />
+
+    <TextView
+        android:id="@+id/mental"
+        android:layout_width="222dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="80dp"
+        android:text="mental illness"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bacterial" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="292dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="48dp"
+        android:text="    Disease Types"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/respiratory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
